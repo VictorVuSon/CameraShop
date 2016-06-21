@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>shop-camera</display-name>
+  <session-config>
+    <session-timeout>10</session-timeout>
+  </session-config>
+  <servlet>
+    <servlet-name>Home Admin</servlet-name>
+    <servlet-class>action.HomeAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Home Admin</servlet-name>
+    <url-pattern>/admin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>List Cat Admin</servlet-name>
+    <servlet-class>action.ListCatAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>List Cat Admin</servlet-name>
+    <url-pattern>/admin/list-cat</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>List Is product admin</servlet-name>
+    <servlet-class>action.ListIsProductAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>List Is product admin</servlet-name>
+    <url-pattern>/admin/list-is-product</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>EditIsProductAdminAction</servlet-name>
+    <servlet-class>action.EditIsProductAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditIsProductAdminAction</servlet-name>
+    <url-pattern>/admin/edit-is-product</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Add Cat Admin</servlet-name>
+    <servlet-class>action.AddCatAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add Cat Admin</servlet-name>
+    <url-pattern>/admin/add-cat</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ProfileAdminAction</servlet-name>
+    <servlet-class>action.ProfileAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProfileAdminAction</servlet-name>
+    <url-pattern>/admin/profile</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AddIsProductAdminAction</servlet-name>
+    <servlet-class>action.AddIsProductAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddIsProductAdminAction</servlet-name>
+    <url-pattern>/admin/add-is-product</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DelIsProductAdminAction</servlet-name>
+    <servlet-class>action.DelIsProductAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DelIsProductAdminAction</servlet-name>
+    <url-pattern>/admin/del-is-product</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Delete Cat Admin</servlet-name>
+    <servlet-class>action.DelCatAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delete Cat Admin</servlet-name>
+    <url-pattern>/admin/del-cat</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Edit Cat Admin</servlet-name>
+    <servlet-class>action.EditCatAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Edit Cat Admin</servlet-name>
+    <url-pattern>/admin/edit-cat</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>List News Admin</servlet-name>
+    <servlet-class>action.ListNewsAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>List News Admin</servlet-name>
+    <url-pattern>/admin/list-news</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Add News Admin</servlet-name>
+    <servlet-class>action.AddNewsAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add News Admin</servlet-name>
+    <url-pattern>/admin/add-news</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Edit News Admin</servlet-name>
+    <servlet-class>action.EditNewsAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Edit News Admin</servlet-name>
+    <url-pattern>/admin/edit-news</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Delete News Admin</servlet-name>
+    <servlet-class>action.DelNewsAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delete News Admin</servlet-name>
+    <url-pattern>/admin/del-news</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>List User Admin</servlet-name>
+    <servlet-class>action.ListUserAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>List User Admin</servlet-name>
+    <url-pattern>/admin/list-user</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Add User Admin</servlet-name>
+    <servlet-class>action.AddUserAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add User Admin</servlet-name>
+    <url-pattern>/admin/add-user</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Edit User Admin</servlet-name>
+    <servlet-class>action.EditUserAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Edit User Admin</servlet-name>
+    <url-pattern>/admin/edit-user</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Delete User Admin</servlet-name>
+    <servlet-class>action.DelUserAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delete User Admin</servlet-name>
+    <url-pattern>/admin/del-user</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Login Admin</servlet-name>
+    <servlet-class>action.LoginAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login Admin</servlet-name>
+    <url-pattern>/admin/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Logout Admin</servlet-name>
+    <servlet-class>action.LogoutAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logout Admin</servlet-name>
+    <url-pattern>/admin/logout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Home</servlet-name>
+    <servlet-class>action.HomeAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PublicGetDetailProduct</servlet-name>
+    <servlet-class>action.PublicGetDetailProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PublicGetDetailProduct</servlet-name>
+    <url-pattern>/detail</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>basket</servlet-name>
+    <jsp-file>/basket.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>basket</servlet-name>
+    <url-pattern>/basket</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>remove product</servlet-name>
+    <jsp-file>/ajax_remove_product.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>remove product</servlet-name>
+    <url-pattern>/remove-product</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ajax delete all</servlet-name>
+    <jsp-file>/ajax_delete_all.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ajax delete all</servlet-name>
+    <url-pattern>/deleteAll</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>updatetopcart</servlet-name>
+    <jsp-file>/ajax_update_topCart.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updatetopcart</servlet-name>
+    <url-pattern>/updateTopcart</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>updatebot</servlet-name>
+    <jsp-file>/ajax_update_botCart.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updatebot</servlet-name>
+    <url-pattern>/updateBotcart</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>updatebot2</servlet-name>
+    <jsp-file>/ajax_update_botCart2.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updatebot2</servlet-name>
+    <url-pattern>/updateBotcart2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>delbot</servlet-name>
+    <jsp-file>/ajax-del-bot.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>delbot</servlet-name>
+    <url-pattern>/delbot</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PublicCheckoutAction</servlet-name>
+    <servlet-class>action.PublicCheckoutAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PublicCheckoutAction</servlet-name>
+    <url-pattern>/checkout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ListBillAdminAction</servlet-name>
+    <servlet-class>action.ListBillAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListBillAdminAction</servlet-name>
+    <url-pattern>/admin/list-bills</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ExecuteBillAdminAction</servlet-name>
+    <servlet-class>action.ExecuteBillAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExecuteBillAdminAction</servlet-name>
+    <url-pattern>/admin/execute-bill</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ViewBillAction</servlet-name>
+    <servlet-class>action.ViewBillAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewBillAction</servlet-name>
+    <url-pattern>/admin/view-bill</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PublicContactAction</servlet-name>
+    <servlet-class>action.PublicContactAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PublicContactAction</servlet-name>
+    <url-pattern>/contact</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ListContactAdminAction</servlet-name>
+    <servlet-class>action.ListContactAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListContactAdminAction</servlet-name>
+    <url-pattern>/admin/list-contact</url-pattern>
+  </servlet-mapping>
+</web-app>
